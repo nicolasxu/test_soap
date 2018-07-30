@@ -1,0 +1,821 @@
+info: Handling POST on /wsdl
+info: Attempting to bind to /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>?</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+WebMethod: clientVersion() has been called by QBWebConnector
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+    Parameters received:
+        string strVersion = ?
+    QBWebConnector Version = ?
+    Recommended Version = 2.0.1.30
+    Supported Minimum Version = 1.0
+    Return values:
+        string retVal = 
+    Supplied Version = ?
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string></string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>3</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+info: Attempting to bind to /wsdl
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+    Parameters received:
+    QBWebConnector Version = 3
+    Recommended Version = 2.0.1.30
+    Supplied Version = 3
+    Supported Minimum Version = 1.0
+WebMethod: clientVersion() has been called by QBWebConnector
+        string retVal = 
+        string strVersion = 3
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string></string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+    Return values:
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>3</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+info: Attempting to bind to /wsdl
+WebMethod: clientVersion() has been called by QBWebConnector
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+    Parameters received:
+    QBWebConnector Version = 3
+    Recommended Version = 2.0.1.30
+    Supported Minimum Version = 1.0
+    Supplied Version = 3
+        string strVersion = 3
+        string retVal = 
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string></string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+    Return values:
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>3</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+info: Attempting to bind to /wsdl
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+        string strVersion = 3
+WebMethod: clientVersion() has been called by QBWebConnector
+    Recommended Version = 2.0.1.30
+    Parameters received:
+    QBWebConnector Version = 3
+    Supported Minimum Version = 1.0
+        string retVal = 
+    Supplied Version = 3
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string></string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+    Return values:
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>3</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+info: Attempting to bind to /wsdl
+WebMethod: clientVersion() has been called by QBWebConnector
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+        string strVersion = 3
+    QBWebConnector Version = 3
+    Recommended Version = 2.0.1.30
+    Supported Minimum Version = 1.0
+    Parameters received:
+        string retVal = 
+    Return values:
+    Supplied Version = 3
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string></string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>3</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+info: Attempting to bind to /wsdl
+WebMethod: clientVersion() has been called by QBWebConnector
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+    QBWebConnector Version = 3
+    Parameters received:
+        string strVersion = 3
+    Recommended Version = 2.0.1.30
+    Return values:
+    Supplied Version = 3
+    Supported Minimum Version = 1.0
+        string retVal = 
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string></string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>3</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+WebMethod: clientVersion() has been called by QBWebConnector
+info: Attempting to bind to /wsdl
+    Parameters received:
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+    QBWebConnector Version = 3
+    Recommended Version = 2.0.1.30
+        string strVersion = 3
+    Supported Minimum Version = 1.0
+    Supplied Version = 3
+        string retVal = 
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string></string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+    Return values:
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>3</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+info: Attempting to bind to /wsdl
+WebMethod: clientVersion() has been called by QBWebConnector
+    Parameters received:
+    QBWebConnector Version = 3
+    Recommended Version = 2.0.1.30
+    Supported Minimum Version = 1.0
+    Return values:
+        string strVersion = 3
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string></string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+    Supplied Version = 3
+        string retVal = 
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>111</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+info: Attempting to bind to /wsdl
+WebMethod: clientVersion() has been called by QBWebConnector
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+        string strVersion = 111
+    QBWebConnector Version = 111
+    Recommended Version = 2.0.1.30
+    Parameters received:
+    Return values:
+        string retVal = W:We recommend that you upgrade your QBWebConnector
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string>W:We recommend that you upgrade your QBWebConnector</string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+    Supplied Version = 111
+    Supported Minimum Version = 1.0
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>111</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+info: Attempting to bind to /wsdl
+WebMethod: clientVersion() has been called by QBWebConnector
+    Parameters received:
+        string strVersion = 111
+    Supported Minimum Version = 1.0
+    QBWebConnector Version = 111
+    Recommended Version = 2.0.1.30
+        string retVal = W:We recommend that you upgrade your QBWebConnector
+    Return values:
+    Supplied Version = 111
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string>W:We recommend that you upgrade your QBWebConnector</string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>111</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+info: Attempting to bind to /wsdl
+WebMethod: clientVersion() has been called by QBWebConnector
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+    QBWebConnector Version = 111
+    Recommended Version = 2.0.1.30
+        string strVersion = 111
+    Supported Minimum Version = 1.0
+    Parameters received:
+    Supplied Version = 111
+        string retVal = W:We recommend that you upgrade your QBWebConnector
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string>W:We recommend that you upgrade your QBWebConnector</string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+    Return values:
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>111</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+info: Attempting to bind to /wsdl
+    Parameters received:
+WebMethod: clientVersion() has been called by QBWebConnector
+        string strVersion = 111
+    Recommended Version = 2.0.1.30
+    Supported Minimum Version = 1.0
+    Return values:
+    Supplied Version = 111
+        string retVal = W:We recommend that you upgrade your QBWebConnector
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string>W:We recommend that you upgrade your QBWebConnector</string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+    QBWebConnector Version = 111
+info: Handling POST on /wsdl
+info: Attempting to bind to /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>111</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+WebMethod: clientVersion() has been called by QBWebConnector
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+        string strVersion = 111
+    QBWebConnector Version = 111
+    Recommended Version = 2.0.1.30
+    Supported Minimum Version = 1.0
+    Supplied Version = 111
+        string retVal = W:We recommend that you upgrade your QBWebConnector
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string>W:We recommend that you upgrade your QBWebConnector</string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+    Parameters received:
+    Return values:
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>33</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+info: Attempting to bind to /wsdl
+WebMethod: clientVersion() has been called by QBWebConnector
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+    QBWebConnector Version = 33
+    Recommended Version = 2.0.1.30
+    Supported Minimum Version = 1.0
+    Parameters received:
+        string strVersion = 33
+    Supplied Version = 33
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string></string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+        string retVal = 
+    Return values:
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>33</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+WebMethod: clientVersion() has been called by QBWebConnector
+    Parameters received:
+        string strVersion = 33
+    QBWebConnector Version = 33
+    Recommended Version = 2.0.1.30
+    Supported Minimum Version = 1.0
+    Supplied Version = 33
+        string retVal = 
+    Return values:
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string></string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+info: Attempting to bind to /wsdl
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>33</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+info: Attempting to bind to /wsdl
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+WebMethod: clientVersion() has been called by QBWebConnector
+        string strVersion = 33
+    Recommended Version = 2.0.1.30
+    Parameters received:
+    Supported Minimum Version = 1.0
+    Supplied Version = 33
+    QBWebConnector Version = 33
+    Return values:
+        string retVal = 
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string></string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>11</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+info: Attempting to bind to /wsdl
+WebMethod: clientVersion() has been called by QBWebConnector
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+    Parameters received:
+    QBWebConnector Version = 11
+        string strVersion = 11
+    Supported Minimum Version = 1.0
+    Return values:
+    Recommended Version = 2.0.1.30
+        string retVal = W:We recommend that you upgrade your QBWebConnector
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string>W:We recommend that you upgrade your QBWebConnector</string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+    Supplied Version = 11
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>11</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+info: Attempting to bind to /wsdl
+WebMethod: clientVersion() has been called by QBWebConnector
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+        string strVersion = 11
+    QBWebConnector Version = 11
+    Supported Minimum Version = 1.0
+    Supplied Version = 11
+    Return values:
+    Parameters received:
+        string retVal = W:We recommend that you upgrade your QBWebConnector
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string>W:We recommend that you upgrade your QBWebConnector</string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+    Recommended Version = 2.0.1.30
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>11</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+info: Attempting to bind to /wsdl
+WebMethod: clientVersion() has been called by QBWebConnector
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+        string strVersion = 11
+    QBWebConnector Version = 11
+    Recommended Version = 2.0.1.30
+    Supported Minimum Version = 1.0
+    Return values:
+    Parameters received:
+        string retVal = W:We recommend that you upgrade your QBWebConnector
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string>W:We recommend that you upgrade your QBWebConnector</string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+    Supplied Version = 11
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>11</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+info: Attempting to bind to /wsdl
+WebMethod: clientVersion() has been called by QBWebConnector
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+    Parameters received:
+        string strVersion = 11
+    Recommended Version = 2.0.1.30
+    Supported Minimum Version = 1.0
+    QBWebConnector Version = 11
+        string retVal = W:We recommend that you upgrade your QBWebConnector
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string>W:We recommend that you upgrade your QBWebConnector</string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+    Return values:
+    Supplied Version = 11
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>11</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+WebMethod: clientVersion() has been called by QBWebConnector
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+info: Attempting to bind to /wsdl
+        string strVersion = 11
+    QBWebConnector Version = 11
+    Recommended Version = 2.0.1.30
+    Supported Minimum Version = 1.0
+    Return values:
+    Supplied Version = 11
+        string retVal = W:We recommend that you upgrade your QBWebConnector
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string>W:We recommend that you upgrade your QBWebConnector</string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+    Parameters received:
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>11</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+info: Attempting to bind to /wsdl
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+WebMethod: clientVersion() has been called by QBWebConnector
+    Parameters received:
+        string strVersion = 11
+    Recommended Version = 2.0.1.30
+    Supported Minimum Version = 1.0
+    Supplied Version = 11
+    QBWebConnector Version = 11
+        string retVal = W:We recommend that you upgrade your QBWebConnector
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string>W:We recommend that you upgrade your QBWebConnector</string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+    Return values:
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>11</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+info: Attempting to bind to /wsdl
+WebMethod: clientVersion() has been called by QBWebConnector
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+        string strVersion = 11
+    QBWebConnector Version = 11
+    Recommended Version = 2.0.1.30
+    Supported Minimum Version = 1.0
+    Supplied Version = 11
+        string retVal = W:We recommend that you upgrade your QBWebConnector
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string>W:We recommend that you upgrade your QBWebConnector</string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+    Return values:
+    Parameters received:
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>11</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+info: Attempting to bind to /wsdl
+WebMethod: clientVersion() has been called by QBWebConnector
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+        string strVersion = 11
+    QBWebConnector Version = 11
+    Supported Minimum Version = 1.0
+    Supplied Version = 11
+    Recommended Version = 2.0.1.30
+        string retVal = W:We recommend that you upgrade your QBWebConnector
+    Return values:
+    Parameters received:
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string>W:We recommend that you upgrade your QBWebConnector</string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>11</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+info: Attempting to bind to /wsdl
+WebMethod: clientVersion() has been called by QBWebConnector
+        string strVersion = 11
+    QBWebConnector Version = 11
+    Recommended Version = 2.0.1.30
+    Supported Minimum Version = 1.0
+    Supplied Version = 11
+        string retVal = W:We recommend that you upgrade your QBWebConnector
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string>W:We recommend that you upgrade your QBWebConnector</string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+    Parameters received:
+    Return values:
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>11</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+info: Attempting to bind to /wsdl
+WebMethod: clientVersion() has been called by QBWebConnector
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+        string strVersion = 11
+    QBWebConnector Version = 11
+    Recommended Version = 2.0.1.30
+    Supported Minimum Version = 1.0
+    Return values:
+    Parameters received:
+        string retVal = W:We recommend that you upgrade your QBWebConnector
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string>W:We recommend that you upgrade your QBWebConnector</string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+    Supplied Version = 11
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>11</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+info: Attempting to bind to /wsdl
+WebMethod: clientVersion() has been called by QBWebConnector
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+    Parameters received:
+    QBWebConnector Version = 11
+    Recommended Version = 2.0.1.30
+    Supported Minimum Version = 1.0
+    Supplied Version = 11
+    Return values:
+        string retVal = W:We recommend that you upgrade your QBWebConnector
+        string strVersion = 11
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string>W:We recommend that you upgrade your QBWebConnector</string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>11</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+WebMethod: clientVersion() has been called by QBWebConnector
+    Parameters received:
+info: Attempting to bind to /wsdl
+        string strVersion = 11
+    QBWebConnector Version = 11
+    Recommended Version = 2.0.1.30
+    Supported Minimum Version = 1.0
+    Supplied Version = 11
+    Return values:
+        string retVal = W:We recommend that you upgrade your QBWebConnector
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string>W:We recommend that you upgrade your QBWebConnector</string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:getLastError>
+            <dev:ticket>?</dev:ticket>
+        </dev:getLastError>
+    </x:Body>
+</x:Envelope>
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+info: Attempting to bind to /wsdl
+WebMethod: getLastError() has been called by QBWebConnector
+    Parameters received:
+        string ticket = ?
+    Return values:
+        string retVal = Error!
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><getLastErrorResponse xmlns="http://developer.intuit.com/"><getLastErrorResult><string>Error!</string></getLastErrorResult></getLastErrorResponse></soap:Body></soap:Envelope>
+info: Handling POST on /wsdl
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:getLastError>
+            <dev:ticket>?</dev:ticket>
+        </dev:getLastError>
+    </x:Body>
+</x:Envelope>
+info: Attempting to bind to /wsdl
+WebMethod: getLastError() has been called by QBWebConnector
+    Return values:
+        string retVal = Error!
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><getLastErrorResponse xmlns="http://developer.intuit.com/"><getLastErrorResult><string>Error!</string></getLastErrorResult></getLastErrorResponse></soap:Body></soap:Envelope>
+info: Handling POST on /wsdl
+        string ticket = ?
+info: Attempting to bind to /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:getLastError>
+            <dev:ticket>?</dev:ticket>
+        </dev:getLastError>
+    </x:Body>
+</x:Envelope>
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+    Parameters received:
+WebMethod: getLastError() has been called by QBWebConnector
+        string ticket = ?
+        string retVal = Error!
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><getLastErrorResponse xmlns="http://developer.intuit.com/"><getLastErrorResult><string>Error!</string></getLastErrorResult></getLastErrorResponse></soap:Body></soap:Envelope>
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:getLastError>
+            <dev:ticket>?</dev:ticket>
+        </dev:getLastError>
+    </x:Body>
+</x:Envelope>
+info: Attempting to bind to /wsdl
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+WebMethod: getLastError() has been called by QBWebConnector
+    Return values:
+    Parameters received:
+    Parameters received:
+        string ticket = ?
+        string retVal = Error!
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><getLastErrorResponse xmlns="http://developer.intuit.com/"><getLastErrorResult><string>Error!</string></getLastErrorResult></getLastErrorResponse></soap:Body></soap:Envelope>
+    Return values:
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:getLastError>
+            <dev:ticket>?</dev:ticket>
+        </dev:getLastError>
+    </x:Body>
+</x:Envelope>
+info: Handling POST on /wsdl
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+WebMethod: getLastError() has been called by QBWebConnector
+        string ticket = ?
+info: Attempting to bind to /wsdl
+    Return values:
+    Parameters received:
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><getLastErrorResponse xmlns="http://developer.intuit.com/"><getLastErrorResult><string>Error!</string></getLastErrorResult></getLastErrorResponse></soap:Body></soap:Envelope>
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:getLastError>
+            <dev:ticket>?</dev:ticket>
+        </dev:getLastError>
+    </x:Body>
+</x:Envelope>
+        string retVal = Error!
+info: Attempting to bind to /wsdl
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+    Parameters received:
+info: Handling POST on /wsdl
+WebMethod: getLastError() has been called by QBWebConnector
+        string ticket = ?
+    Return values:
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><getLastErrorResponse xmlns="http://developer.intuit.com/"><getLastErrorResult><string>Error!</string></getLastErrorResult></getLastErrorResponse></soap:Body></soap:Envelope>
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:getLastError>
+            <dev:ticket>?</dev:ticket>
+        </dev:getLastError>
+    </x:Body>
+</x:Envelope>
+info: Attempting to bind to /wsdl
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+info: Handling POST on /wsdl
+        string retVal = Error!
+        string ticket = ?
+WebMethod: getLastError() has been called by QBWebConnector
+    Return values:
+    Parameters received:
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><getLastErrorResponse xmlns="http://developer.intuit.com/"><getLastErrorResult><string>Error!</string></getLastErrorResult></getLastErrorResponse></soap:Body></soap:Envelope>
+        string retVal = Error!
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:getLastError>
+            <dev:ticket>?</dev:ticket>
+        </dev:getLastError>
+    </x:Body>
+</x:Envelope>
+info: Attempting to bind to /wsdl
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+WebMethod: getLastError() has been called by QBWebConnector
+    Parameters received:
+        string ticket = ?
+    Return values:
+        string retVal = Error!
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><getLastErrorResponse xmlns="http://developer.intuit.com/"><getLastErrorResult><string>Error!</string></getLastErrorResult></getLastErrorResponse></soap:Body></soap:Envelope>
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:getLastError>
+            <dev:ticket>?</dev:ticket>
+        </dev:getLastError>
+    </x:Body>
+</x:Envelope>
+WebMethod: getLastError() has been called by QBWebConnector
+info: Attempting to bind to /wsdl
+    Parameters received:
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+        string retVal = Error!
+        string ticket = ?
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><getLastErrorResponse xmlns="http://developer.intuit.com/"><getLastErrorResult><string>Error!</string></getLastErrorResult></getLastErrorResponse></soap:Body></soap:Envelope>
+    Return values:
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:getLastError>
+            <dev:ticket>?</dev:ticket>
+        </dev:getLastError>
+    </x:Body>
+</x:Envelope>
+WebMethod: getLastError() has been called by QBWebConnector
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+        string ticket = ?
+info: Attempting to bind to /wsdl
+    Return values:
+        string retVal = Error!
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><getLastErrorResponse xmlns="http://developer.intuit.com/"><getLastErrorResult><string>Error!</string></getLastErrorResult></getLastErrorResponse></soap:Body></soap:Envelope>
+    Parameters received:
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>11</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+info: Attempting to bind to /wsdl
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+WebMethod: clientVersion() has been called by QBWebConnector
+        string strVersion = 11
+    QBWebConnector Version = 11
+    Recommended Version = 2.0.1.30
+    Supported Minimum Version = 1.0
+    Return values:
+    Parameters received:
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string>W:We recommend that you upgrade your QBWebConnector</string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+        string retVal = W:We recommend that you upgrade your QBWebConnector
+    Supplied Version = 11
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>11</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+info: Attempting to bind to /wsdl
+WebMethod: clientVersion() has been called by QBWebConnector
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+        string strVersion = 11
+    Parameters received:
+    Recommended Version = 2.0.1.30
+    Supported Minimum Version = 1.0
+    QBWebConnector Version = 11
+        string retVal = W:We recommend that you upgrade your QBWebConnector
+    Supplied Version = 11
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string>W:We recommend that you upgrade your QBWebConnector</string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>
+    Return values:
+info: Handling POST on /wsdl
+received: <x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dev="http://developer.intuit.com/">
+    <x:Header/>
+    <x:Body>
+        <dev:clientVersion>
+            <dev:strVersion>11</dev:strVersion>
+        </dev:clientVersion>
+    </x:Body>
+</x:Envelope>
+WebMethod: clientVersion() has been called by QBWebConnector
+info: Trying QBWebConnectorSvcSoap from path /QBMSDonorSample/QBWebConnectorSvc.asmx
+info: Attempting to bind to /wsdl
+    QBWebConnector Version = 11
+        string strVersion = 11
+    Supported Minimum Version = 1.0
+    Parameters received:
+    Supplied Version = 11
+        string retVal = W:We recommend that you upgrade your QBWebConnector
+    Return values:
+    Recommended Version = 2.0.1.30
+replied: <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://developer.intuit.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><clientVersionResponse xmlns="http://developer.intuit.com/"><clientVersionResult><string>W:We recommend that you upgrade your QBWebConnector - nick</string></clientVersionResult></clientVersionResponse></soap:Body></soap:Envelope>

@@ -1,0 +1,20 @@
+{
+  "name": "test-soap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js",
+    "debug": "node --inspect ./app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "qbws": "^0.2.1",
+    "soap": "^0.24.0"
+  }
+}
